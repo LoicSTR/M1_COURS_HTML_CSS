@@ -1,0 +1,104 @@
+.latest span {
+    color: #4CE0D7;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.card .img-card {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card .category {
+    position: absolute;
+    border-radius: 40px;
+    background: #262626;
+    color: white;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card .infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.infos .profil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profil img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.infos p {
+    color: #BCBCBC;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-card {
+    margin: 0 20px;
+}
+
+.text-card h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.card .more {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.more p {
+    color: #4CE0D7;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.88px;
+}
+
+.other-article {
+    margin-top: 50px;
+}
+
+.other-article .cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-article .cards .card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.other-article .card img.img-card {
+    width: 417px !important;
+    height: auto;
+    max-height: 350px;
+}
