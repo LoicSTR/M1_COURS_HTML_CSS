@@ -4,15 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/card.css">
-    <link rel="stylesheet" href="css/navigation-articles.css">
-    <link rel="stylesheet" href="css/profil.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cours HTML CSS</title>
 
-    <script defer="true" src="//embed.typeform.com/next/embed.js"></script>
 </head>
 <body>
     <header>
@@ -30,9 +24,6 @@
         <img src="images/search.svg" alt="">
     </div>
     </header>
-
-    <div data-tf-live="01J7XAD33P8BYRSGPJKKMBP5D9">
-    </div>
     
     <section class="banner">
         <div class="text">
@@ -115,7 +106,9 @@
                         <div class="category">
                             ENSEMBLES
                         </div>
-                        <img class="img-card" src="images/image-3.jpeg" alt="">
+                        <div class="img-card">
+                            <img src="images/image-3.jpeg" alt=""> 
+                         </div>
                         <div class="content-card">
                             <div class="infos">
                                 <div class="profil">
@@ -146,7 +139,42 @@
                         <div class="category">
                             ENSEMBLES
                         </div>
-                        <img class="img-card" src="images/image-4.jpeg" alt="">
+                        <div class="img-card">
+                            <img src="images/image-4.jpeg" alt=""> 
+                         </div>
+                        <div class="content-card">
+                            <div class="infos">
+                                <div class="profil">
+                                    <img src="images/image-profil.jpeg" alt="">
+                                <p>Mallory Reyn</p>
+                                </div>
+                                <p>April 14th, 2023</p>
+                            </div>
+                            <div class="text-card">
+                                <h3>10 Brands that remained faithful to your classy look.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur 
+                                    Pellentesque sit amet sapien fringilla, mattis
+                                    mattis tellus. Nullam quis imperdiet augue. 
+                                    Vestibulum.
+                                </p>
+                            </div>
+                            
+                            <div class="more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="category">
+                            FASHION
+                        </div>
+                        <div class="img-card">
+                            <img src="images/image-5.jpeg" alt=""> 
+                         </div>
                         <div class="content-card">
                             <div class="infos">
                                 <div class="profil">
@@ -177,38 +205,9 @@
                         <div class="category">
                             ENSEMBLES
                         </div>
-                        <img class="img-card" src="images/image-5.jpeg" alt="">
-                        <div class="content-card">
-                            <div class="infos">
-                                <div class="profil">
-                                    <img src="images/image-profil.jpeg" alt="">
-                                <p>Mallory Reyn</p>
-                                </div>
-                                <p>April 14th, 2023</p>
-                            </div>
-                            <div class="text-card">
-                                <h3>10 Brands that remained faithful to your classy look.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-                                    Pellentesque sit amet sapien fringilla, mattis
-                                    mattis tellus. Nullam quis imperdiet augue. 
-                                    Vestibulum.
-                                </p>
-                            </div>
-                            
-                            <div class="more">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
-                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                                <p>READ MORE</p>
-                            </div>
+                        <div class="img-card">
+                           <img src="images/image-6.jpeg" alt=""> 
                         </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="category">
-                            ENSEMBLES
-                        </div>
-                        <img class="img-card" src="images/image-6.jpeg" alt="">
                         <div class="content-card">
                             <div class="infos">
                                 <div class="profil">
@@ -262,24 +261,212 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="231" height="2" viewBox="0 0 231 2" fill="none">
                     <path d="M0 1H230.5" stroke="#BCBCBC"/>
                 </svg>
-                <p>Lorem ipsum dolor sit amet, consectetur 
+                <p class="text">Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit. Ut et massa mi. Aliquam 
                     in hendrerit urna. Pellentesque sit amet 
                     sapien fringilla, mattis ligula consectetur, 
                     ultrices mauris. Maecenas vitae mattis 
                     tellus. Nullam quis imperdiet Vestibulum.
                 </p>
-                <p class="lets-chat">
+                <button class="lets-chat">
                     Let's chat
-                </p>
+                </button>
                 <div class="social">
                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM11.5 5.75C14.6625 5.75 17.25 8.3375 17.25 11.5C17.25 14.375 15.1656 16.8188 12.2906 17.25V13.1531H13.6562L13.9437 11.5H12.3625V10.4219C12.3625 9.99062 12.5781 9.55937 13.2969 9.55937H14.0156V8.12187C14.0156 8.12187 13.3688 7.97813 12.7219 7.97813C11.4281 7.97813 10.5656 8.76875 10.5656 10.2063V11.5H9.12813V13.1531H10.5656V17.1781C7.83437 16.7469 5.75 14.375 5.75 11.5C5.75 8.3375 8.3375 5.75 11.5 5.75Z" fill="#4CE0D7"/>
                     </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM15.8844 8.26562C16.3875 8.19375 16.8188 8.12187 17.25 7.90625C16.9625 8.40938 16.5312 8.84062 16.0281 9.12813C16.1719 12.5062 13.7281 16.1719 9.34375 16.1719C8.05 16.1719 6.82812 15.7406 5.75 15.0938C6.97187 15.2375 8.26562 14.8781 9.12813 14.2312C8.05 14.2312 7.1875 13.5125 6.9 12.5781C7.25938 12.65 7.61875 12.5781 7.97813 12.5062C6.9 12.2188 6.10938 11.2125 6.10938 10.1344C6.46875 10.2781 6.82812 10.4219 7.1875 10.4219C6.18125 9.70312 5.82188 8.3375 6.46875 7.25938C7.69062 8.69688 9.41563 9.63125 11.3562 9.70312C10.9969 8.26562 12.1469 6.82812 13.6562 6.82812C14.3031 6.82812 14.95 7.11562 15.3812 7.54688C15.9562 7.40313 16.4594 7.25937 16.8906 6.97187C16.7469 7.54688 16.3875 7.97813 15.8844 8.26562Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.37258 0 12 0C18.6274 0 24 5.14873 24 11.5C24 17.8513 18.6274 23 12 23C5.37258 23 0 17.8513 0 11.5ZM6.15 9.55938V17.25H8.7V9.55938H6.15ZM6 7.11563C6 7.90625 6.6 8.48125 7.425 8.48125C8.25 8.48125 8.85 7.90625 8.85 7.11563C8.85 6.325 8.25 5.75 7.425 5.75C6.675 5.75 6 6.325 6 7.11563ZM15.45 17.25H17.85V12.5063C17.85 10.1344 16.35 9.34375 14.925 9.34375C13.65 9.34375 12.75 10.1344 12.525 10.6375V9.55938H10.125V17.25H12.675V13.1531C12.675 12.075 13.425 11.5 14.175 11.5C14.925 11.5 15.45 11.8594 15.45 13.0812V17.25Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path d="M13.3688 11.5L10.35 9.775V13.225L13.3688 11.5Z" fill="#4CE0D7"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM15.9563 7.69063C16.4594 7.83438 16.8188 8.19375 16.9625 8.69688C17.25 9.63125 17.25 11.5 17.25 11.5C17.25 11.5 17.25 13.3688 17.0344 14.3031C16.8906 14.8063 16.5312 15.1656 16.0281 15.3094C15.0937 15.525 11.5 15.525 11.5 15.525C11.5 15.525 7.83437 15.525 6.97187 15.3094C6.46875 15.1656 6.10938 14.8063 5.96563 14.3031C5.75 13.3688 5.75 11.5 5.75 11.5C5.75 11.5 5.75 9.63125 5.89375 8.69688C6.0375 8.19375 6.39688 7.83438 6.9 7.69063C7.83438 7.475 11.4281 7.475 11.4281 7.475C11.4281 7.475 15.0938 7.475 15.9563 7.69063Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path d="M13.3688 11.5L10.35 9.775V13.225L13.3688 11.5Z" fill="#4CE0D7"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM15.9563 7.69063C16.4594 7.83438 16.8188 8.19375 16.9625 8.69688C17.25 9.63125 17.25 11.5 17.25 11.5C17.25 11.5 17.25 13.3688 17.0344 14.3031C16.8906 14.8063 16.5312 15.1656 16.0281 15.3094C15.0937 15.525 11.5 15.525 11.5 15.525C11.5 15.525 7.83437 15.525 6.97187 15.3094C6.46875 15.1656 6.10938 14.8063 5.96563 14.3031C5.75 13.3688 5.75 11.5 5.75 11.5C5.75 11.5 5.75 9.63125 5.89375 8.69688C6.0375 8.19375 6.39688 7.83438 6.9 7.69063C7.83438 7.475 11.4281 7.475 11.4281 7.475C11.4281 7.475 15.0938 7.475 15.9563 7.69063Z" fill="#4CE0D7"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="142" height="1" viewBox="0 0 142 1" fill="none">
+                    <path d="M0.5 0.5H141.5" stroke="#BCBCBC"/>
+                </svg>
+                <p>Join the 36,000 Lux Ventus!</p>
+                <form action="" method="get">
+                    <input type="mail" id="mail" placeholder="Email Adress">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p>
+                    Rest assured! You’re gonna have 
+                    a lot of fun when you press this
+                </p>
+            </div>
+            <div class="top-rated">
+                <h2>Top Rated</h2>
+                <div class="top-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="item-content">
+                        <img src="images/image-top-1.jpeg" alt="">
+                        <div class="item-text">
+                            <h4>Happy Coats VS Serious Edgy Coats</h4>
+                            <div class="more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="item-content">
+                        <img src="images/image-top-2.jpeg" alt="">
+                        <div class="item-text">
+                            <h4>10 Habits you need to pick for top styling.</h4>
+                            <div class="more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="item-content">
+                        <img src="images/image-top-3.jpeg" alt="">
+                        <div class="item-text">
+                            <h4>Lingerie special. Combo or double?</h4>
+                            <div class="more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="item-content">
+                        <img src="images/image-top-4.jpeg" alt="">
+                        <div class="item-text">
+                            <h4>This Yoga week was crazy.</h4>
+                            <div class="more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="item-content">
+                        <img src="images/image-top-1.jpeg" alt="">
+                        <div class="item-text">
+                            <h4>Perfect summer colors to combine</h4>
+                            <div class="more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <path d="M27.625 19.5L11.375 19.5M27.625 19.5L21.125 26M27.625 19.5L21.125 13" stroke="#4CE0D7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>READ MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-nav">
+                <h2>Categories</h2>
+                <div class="category-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="category-content">
+                        <p>Fashion</p>
+                        <div class="chiffre">6</div>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="category-content">
+                        <p>Lifestyle</p>
+                        <div class="chiffre">13</div>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="category-content">
+                        <p>Spiritual</p>
+                    <div class="chiffre">4</div>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="271" height="1" viewBox="0 0 271 1" fill="none">
+                        <path d="M0 0.5H270.5" stroke="#BCBCBC"/>
+                    </svg>
+                    <div class="category-content">
+                        <p>Mental Health</p>
+                        <div class="chiffre">6</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="footer-content">
+            <img src="images/logo.png" alt="Logo">
+            <div class="left-footer-content">
+                <p>Let’s Hang Out</p>
+                <div class="social">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM11.5 5.75C14.6625 5.75 17.25 8.3375 17.25 11.5C17.25 14.375 15.1656 16.8188 12.2906 17.25V13.1531H13.6562L13.9437 11.5H12.3625V10.4219C12.3625 9.99062 12.5781 9.55937 13.2969 9.55937H14.0156V8.12187C14.0156 8.12187 13.3688 7.97813 12.7219 7.97813C11.4281 7.97813 10.5656 8.76875 10.5656 10.2063V11.5H9.12813V13.1531H10.5656V17.1781C7.83437 16.7469 5.75 14.375 5.75 11.5C5.75 8.3375 8.3375 5.75 11.5 5.75Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM15.8844 8.26562C16.3875 8.19375 16.8188 8.12187 17.25 7.90625C16.9625 8.40938 16.5312 8.84062 16.0281 9.12813C16.1719 12.5062 13.7281 16.1719 9.34375 16.1719C8.05 16.1719 6.82812 15.7406 5.75 15.0938C6.97187 15.2375 8.26562 14.8781 9.12813 14.2312C8.05 14.2312 7.1875 13.5125 6.9 12.5781C7.25938 12.65 7.61875 12.5781 7.97813 12.5062C6.9 12.2188 6.10938 11.2125 6.10938 10.1344C6.46875 10.2781 6.82812 10.4219 7.1875 10.4219C6.18125 9.70312 5.82188 8.3375 6.46875 7.25938C7.69062 8.69688 9.41563 9.63125 11.3562 9.70312C10.9969 8.26562 12.1469 6.82812 13.6562 6.82812C14.3031 6.82812 14.95 7.11562 15.3812 7.54688C15.9562 7.40313 16.4594 7.25937 16.8906 6.97187C16.7469 7.54688 16.3875 7.97813 15.8844 8.26562Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.37258 0 12 0C18.6274 0 24 5.14873 24 11.5C24 17.8513 18.6274 23 12 23C5.37258 23 0 17.8513 0 11.5ZM6.15 9.55938V17.25H8.7V9.55938H6.15ZM6 7.11563C6 7.90625 6.6 8.48125 7.425 8.48125C8.25 8.48125 8.85 7.90625 8.85 7.11563C8.85 6.325 8.25 5.75 7.425 5.75C6.675 5.75 6 6.325 6 7.11563ZM15.45 17.25H17.85V12.5063C17.85 10.1344 16.35 9.34375 14.925 9.34375C13.65 9.34375 12.75 10.1344 12.525 10.6375V9.55938H10.125V17.25H12.675V13.1531C12.675 12.075 13.425 11.5 14.175 11.5C14.925 11.5 15.45 11.8594 15.45 13.0812V17.25Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path d="M13.3688 11.5L10.35 9.775V13.225L13.3688 11.5Z" fill="#4CE0D7"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM15.9563 7.69063C16.4594 7.83438 16.8188 8.19375 16.9625 8.69688C17.25 9.63125 17.25 11.5 17.25 11.5C17.25 11.5 17.25 13.3688 17.0344 14.3031C16.8906 14.8063 16.5312 15.1656 16.0281 15.3094C15.0937 15.525 11.5 15.525 11.5 15.525C11.5 15.525 7.83437 15.525 6.97187 15.3094C6.46875 15.1656 6.10938 14.8063 5.96563 14.3031C5.75 13.3688 5.75 11.5 5.75 11.5C5.75 11.5 5.75 9.63125 5.89375 8.69688C6.0375 8.19375 6.39688 7.83438 6.9 7.69063C7.83438 7.475 11.4281 7.475 11.4281 7.475C11.4281 7.475 15.0938 7.475 15.9563 7.69063Z" fill="#4CE0D7"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <path d="M13.3688 11.5L10.35 9.775V13.225L13.3688 11.5Z" fill="#4CE0D7"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5ZM15.9563 7.69063C16.4594 7.83438 16.8188 8.19375 16.9625 8.69688C17.25 9.63125 17.25 11.5 17.25 11.5C17.25 11.5 17.25 13.3688 17.0344 14.3031C16.8906 14.8063 16.5312 15.1656 16.0281 15.3094C15.0937 15.525 11.5 15.525 11.5 15.525C11.5 15.525 7.83437 15.525 6.97187 15.3094C6.46875 15.1656 6.10938 14.8063 5.96563 14.3031C5.75 13.3688 5.75 11.5 5.75 11.5C5.75 11.5 5.75 9.63125 5.89375 8.69688C6.0375 8.19375 6.39688 7.83438 6.9 7.69063C7.83438 7.475 11.4281 7.475 11.4281 7.475C11.4281 7.475 15.0938 7.475 15.9563 7.69063Z" fill="#4CE0D7"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="copyright">
+            © 2023 - Lux Ventus by Zine.E.Falouti
+        </div>
+    </footer>
 
 </body>
 </html>
