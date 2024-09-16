@@ -5,12 +5,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     background-color: #F9F9F9;
-  }
-  
-  footer {
-      height: 100px;
-      background-color: #A9CBB7;
-      margin-top: auto;
+    margin: 0 84px;
   }
   
   a {
@@ -22,7 +17,35 @@ body {
     gap: 50px;
   }
   
+  .left-part {
+    flex: 4;
+  }
+
   .right-part {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 50px
   }
+
+button {
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: #4CE0D7;
+    font-weight: 700;
+    border: none;
+}
+
+.more {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.more p {
+    color: #4CE0D7;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.88px;
+}

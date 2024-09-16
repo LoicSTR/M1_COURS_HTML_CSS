@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+
+header img {
+    max-width: 226px;
+    object-fit: contain;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav li {
+    list-style-type: none;
+    font-weight: 700;
+}
+
+nav li.contact {
+    background-color: #4CE0D7;
+    border-radius: 47px;
+    padding: 5px 10px;
+    flex-shrink: 0;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CE0D7;
+    border-radius: 47px;
+    width: 47px;
+    height: 47px;
+}

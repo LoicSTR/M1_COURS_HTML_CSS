@@ -1,0 +1,39 @@
+.category-nav {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.category-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-content p {
+    font-weight: 700;
+}
+
+.category-content .chiffre {
+    background-color: #4CE0D7;
+    width: 44px;
+    height: 44px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    font-size: 24px;
+    font-weight: 700;
+}
